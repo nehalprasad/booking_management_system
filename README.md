@@ -1,6 +1,23 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Check for node_modules 
+
+### `npm install || npm install --force`
+
+# Create a .env file 
+
+# Copy .env example data and paste into created .env
+
+### `npm start` 
+
+# If any error occurs related to node then add
+## in your scripts of package.json 
+"scripts": {
+    "start": "react-scripts --openssl-legacy-provider start start",
+    "build": "react-scripts --openssl-legacy-provider start build",
+    "test": "react-scripts --openssl-legacy-provider start test",
+    "eject": "react-scripts --openssl-legacy-provider start eject"
+  }
 
 ## Available Scripts
 
