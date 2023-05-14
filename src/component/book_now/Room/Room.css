@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+    .container {
+      margin: 0 10px;
+    }
+    
+    .mobile-header {
+      font-size: 20px;
+    }
+    
+    .desktop-header {
+      display: none;
+    }
+    
+    .form-label {
+      width: 100px;
+      height: 50px;
+      margin-bottom: 5px;
+    }
+    .form-adult{
+        margin-top: -5px;
+    }
+
+    .form-select {
+      width: 70px !important;
+    }
+    
+    .remove-button {
+      font-size: 10px;
+    }
+  }
+
+.num{
+    width:50%
+}

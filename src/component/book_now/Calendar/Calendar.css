@@ -1,0 +1,67 @@
+.past-date {
+    color: #ccc;
+  }
+/*   
+  .selected-start-date {
+    background-color: #f1b80c;
+    color: #f1b80c;
+    box-shadow: '0 0 15px rgba(0, 0, 50, 1)';
+  }
+  
+  .selected-end-date {
+    background-color: #f1b80c;
+    color: #f1b80c;
+    box-shadow: '0 0 15px rgba(0, 0, 50, 1)';
+  }
+  
+  .selected-date-range {
+    background-color: #f1b80c;
+    color: #f1b80c;
+    box-shadow: '0 0 15px rgba(0, 0, 50, 1)';
+  }
+   */
+  .prev-date{
+    color: white;
+    background-color: white;
+    /* display: none; */
+  }
+
+.selected-start-date,
+.selected-end-date,
+.selected-date-range {
+  /* background-color: red; */
+  background: #007bff;
+  color: red;
+
+}
+
+/* .past-date {
+  color: #bbb;
+} */
+
+.selected-date-range {
+  background-color: #007bff;
+  color: red;
+  opacity: 0.5;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+/* Add the "disabled" class to the elements with past dates */
+.past-date {
+  pointer-events: none; /* disable click events */
+  opacity: 0.5; /* set opacity to make it look disabled */
+  cursor: not-allowed; /* set cursor to not-allowed */
+  color: #bbb;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .check {
+      margin: 5px 0px !important;
+     
+  }
+
+}
