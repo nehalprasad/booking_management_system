@@ -27,17 +27,18 @@ export default App;
 
 // function App() {
 //   const initiatePayment = () => {
-//     fetch('/ccavenue/request')
-//       .then((response) => response.text())
-//       .then((formFields) => {
-//         const form = document.createElement('form');
-//         form.action = 'https://secure.ccavenue.com/transaction/transaction.do?command=initiateTransaction';
-//         form.method = 'POST';
-//         form.innerHTML = formFields;
-//         document.body.appendChild(form);
-//         form.submit();
-//       })
-//       .catch((error) => console.error(error));
+//     window.location.href = "https://www.aahanaresort.com/quick-pay/NON_SEAMLESS_KIT/dataForm.php"
+//     // fetch('/ccavenue/request')
+//     //   .then((response) => response.text())
+//     //   .then((formFields) => {
+//     //     const form = document.createElement('form');
+//     //     form.action = 'https://secure.ccavenue.com/transaction/transaction.do?command=initiateTransaction';
+//     //     form.method = 'POST';
+//     //     form.innerHTML = formFields;
+//     //     document.body.appendChild(form);
+//     //     form.submit();
+//     //   })
+//     //   .catch((error) => console.error(error));
 //   };
 
 //   return (
